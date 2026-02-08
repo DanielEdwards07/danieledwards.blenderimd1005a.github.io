@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+            <!--Top Bar with all the options-->
+            <nav class="navbar">
+                <img src="images/blender_logo_white.png" height="100">
+                <div>
+                    <a href="index.html"><b>Home</b></a>
+			        <a href="download.html"><b>Download</b></a>
+			        <a><b>Features</b></a>
+			        <a href="support.html"><b style="color: #FAB85B;">Support</b></a>
+                    <a><b>About</b></a>
+                    <button class="donateButton"><b>Donate</b></button>
+                </div>
+		    </nav>
+            <!--End of top bar-->
+
+        <!--Header Title-->
+        <section class="featureSection" style="padding-top: 100px;">
+            <header class="titleText"><b>Email our support team!</b></header>
+        </section>
+        <!--End of header title-->
+
+        <!--Submission Form-->
+        <form class="supportForm" action="" method="post">
+            <div class="supportFormRow">
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstname" name="firstName" placeholder="John" required>
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastname" name="lastName" placeholder="Doe">
+                </div>
+            </div>
+
+            <div class="supportFormRow">
+                <div>
+                    <label for="userEmail">Email:</label>
+                    <input type="email" id="userEmail" name="userEmail" placeholder="yourmail@domain.com">
+                </div>
+                <div>
+                    <label for="urgency">Urgency:</label>
+                    <input type="range" id="urgency" name="urgency" />
+                </div>
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter message here"></textarea>
+    
+            <button class="submitButton" type="submit">Submit</button>
+        </form>
+        <!--End of Submission Form-->
+
+        <!--Footer-->
+        <footer class="footerBar">
+            <div>
+                <h1 class="footerText">Artistic freedom starts with Blender</h1>
+                <h2 class="footerText">The Free and Open Source 3D Creation Suite</h2>
+            </div>
+            <h3 class="footerText">© 2026 All Rights Reserved</h3>
+        </footer>
+        <!-- End of Footer-->
+
+    </body>
+
+</html>

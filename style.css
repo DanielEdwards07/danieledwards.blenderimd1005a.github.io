@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap");
+
+body {
+  margin: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    #ffffff,
+    #1b9deb,
+    #1b9deb,
+    #ffffff
+  );
+  background-size: 100% 100vh;
+}
+
+.navbar {
+  background-color: rgb(37, 29, 53);
+  text-align: center;
+  padding: 5px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  display: inline-block;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: rgb(136, 121, 165);
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.donateButton {
+  color: white;
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background-color: rgb(142, 62, 189);
+  border-radius: 50px;
+  border: none;
+  margin-left: 20px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.donateButton:hover {
+  color: rgb(0, 0, 0);
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background-color: rgb(219, 157, 255);
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.logoGif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.rightBox {
+    padding-right: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftBox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.subtitleText {
+    color: #265787;
+    font-family: "TASA Explorer";
+    font-size: 34px;
+    padding-bottom: 15px;
+}
+
+.downloadButton {
+  color: white;
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background: linear-gradient(to bottom, #ff9e17, #923b86);
+  border-radius: 50px;
+  border: none;
+  margin-left: 20px;
+}
+
+.downloadButton:hover {
+  color: black;
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background: linear-gradient(to bottom, #ffc370, #ff97f1);
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.windowsTxt {
+    color: white;
+    font-family: "TASA Explorer";
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.featureSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 350px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.titleText {
+    color: #265787;
+    font-family: "TASA Explorer";
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.featureBoxLeft {
+  width: 1100px;
+  height: auto;
+  background-color: #FAB85B;
+  border-radius: 10px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: "TASA Explorer";
+  gap: 20px;
+}
+
+.featureBoxRight {
+  width: 1100px;
+  height: auto;
+  background-color: #FAB85B;
+  border-radius: 10px;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: "TASA Explorer";
+  gap: 20px;
+}
+
+.learnButton {
+  color: rgb(255, 255, 255);
+  font-family: "TASA Explorer";
+  font-size: 24px;
+  padding: 6px;
+  background-color: #265787;
+  border-radius: 10px;
+  border: none;
+  display:block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.industrySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.industryText {
+    color: white;
+    font-family: "TASA Explorer";
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.industryLogos {
+  padding: 20px;
+  gap: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.footerBar {
+  background-color: rgb(37, 29, 53);
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.footerText {
+    color: white;
+    font-family: "TASA Explorer";
+    font-size: 14px;
+}
+
+/*Support form page--------*/
+
+.supportForm {
+  width: 800px;
+  height: 400px;
+  font-family: "TASA Explorer";
+  background-color: rgb(255, 229, 180);
+  border-radius: 20px;
+  padding: 30px;
+  gap: 15px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 40px;
+  align-items: flex-start;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #FAB85B;
+  border-width: 10px;
+}
+
+.supportFormRow {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+#message {
+  width: 790px;
+  height: 220px;
+  resize: none;
+  font-size: 16px;
+}
+
+#urgency {
+  width: 400px;
+}
+
+.submitButton {
+  color: white;
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background-color: rgb(240, 57, 57);
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.submitButton:hover {
+  color: rgb(255, 255, 255);
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background-color: rgb(85, 67, 241);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Download page--------*/
+
+.container {
+  color: #ffffff;
+  display: grid;
+  grid-template-areas: "windows mac linux";
+
+  /*AI assisted: ChatGPT suggested using grid-template-colums with a repeat function for centering grid*/
+  grid-template-columns: repeat(3, 1fr);
+  /*end of assistance*/
+  
+  gap: 10px;
+  font-family: "TASA Explorer";
+  margin: auto 200px;
+  border-radius: 20px;
+  padding-bottom: 250px;
+}
+
+.container div {
+  background: linear-gradient(to bottom, #ff9e17, #923b86);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.container div.windows {
+  grid-area: windows;
+  text-align: center;
+}
+
+.container div.mac {
+  grid-area: mac;
+  text-align: center;
+}
+
+.container div.linux {
+  grid-area: linux;
+  text-align: center;
+}
+
+.gridButton {
+  color: white;
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background-color: #1c4a77;
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.gridButton:hover {
+  color: #ffd000;
+  font-family: "TASA Explorer";
+  font-size: 32px;
+  padding: 5px 30px;
+  background-color: #4b91d8;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
